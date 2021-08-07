@@ -11,7 +11,7 @@ function loadMap(){
     }
   };
 
-  xhttp.open("GET", "/crimes");
+  xhttp.open("GET", "/crime");
   xhttp.send();
 }
 
