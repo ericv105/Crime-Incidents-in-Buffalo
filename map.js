@@ -11,7 +11,7 @@ function loadMap(){
     }
   };
 
-  xhttp.open("GET", "/crime");
+  xhttp.open("GET", "/Crime-Incidents-in-Buffalo/crime");
   xhttp.send();
 }
 
