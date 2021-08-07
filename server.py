@@ -1,7 +1,7 @@
 import bottle
 import crimes
 
-@bottle.route('/')
+@bottle.route('/Crime-Incidents-in-Buffalo/')
 def indexfunction():
   return bottle.static_file('index.html', root='')
 
