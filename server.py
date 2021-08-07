@@ -9,7 +9,7 @@ def indexfunction():
 def mapfunction():
   return bottle.static_file('map.js', root='')
 
-@bottle.route('/crime')
+@bottle.route('/crimes')
 def get_tickets():
   return crimes.get_ticket_data("https://data.buffalony.gov/resource/d6g9-xbgu.json")
 
